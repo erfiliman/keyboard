@@ -14,7 +14,7 @@ function App(props) {
     const [keyboardItems, setKeyboardItems]  = useState(keyboardItemsInfo);
     const [activeCode, setActiveCode]  = useState(0);
     const [loadSentence, setLoadSentence]  = useState(true);
-    const [showTextArea, setShowTextArea]  = useState(false);
+    const [showTextArea, setShowTextArea]  = useState(true);
     const [currentPosition, setCurrentPosition]  = useState(0);
     const [countCorrectSentences, setCountCorrectSentences]  = useState(0);
     const [countCorrect, setCountCorrect]  = useState(0);
